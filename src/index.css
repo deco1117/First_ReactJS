@@ -1,0 +1,160 @@
+*,
+*::after,
+*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.container{
+  max-width: 856px;
+  margin: 0 auto;
+}
+
+header{
+  width: 100%;
+}
+
+main{
+  background: #E5E5E5;
+}
+
+.nav{
+  display: flex;
+  justify-content: end;
+}
+
+.nav .nav__list{
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.nav .nav__list .nav__list--item .nav__list--item-link{
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: right;
+  color: #000000;
+}
+
+.sectionMe{
+  margin-top: 140px;
+}
+
+.sectionMe__wrapper{
+  justify-content: space-between;
+  display: flex;
+}   
+
+.sectonMe__wrapper--start-title{
+  max-width: 506px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 60px;
+  color: #21243D;
+}
+
+.sectonMe__wrapper--start-text{
+  margin-top: 40px;
+  max-width: 497px;
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #21243D;
+}
+
+.sectonMe__wrapper--start-btn{
+  cursor: pointer;
+  text-align: center;
+  width: 208px;
+  margin-top: 47px;
+  padding: 17px 20px;
+  background: #FF6464;
+  border-radius: 2px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+
+.sectionPost{
+  margin-top: 71px;
+  padding-top: 27px;
+  padding-bottom: 30px;
+  background: #EDF7FA;
+}
+
+.sectionPost__top{
+  display: flex;
+  justify-content: space-between;
+}
+
+.sectionPost__top--title{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 60px;
+  display: flex;
+  align-items: flex-end;
+  color: #21243D;
+}
+
+.sectionPost__top--link{
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  color: #00A8CC;
+}
+
+.sectionPost__wrapper{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 22px;
+}
+
+.sectionPost__wrapper--card{
+  background: #FFFFFF;
+  box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+  border-radius: 4px;
+  max-width: 418px;
+  padding: 24px;
+}
+
+.sectionPost__wrapper--card-title{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 38px;
+  color: #21243D;
+}
+
+.sectionPost__wrapper--card-span{
+  margin-top: 25px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #21243D;
+}
+
+.sectionPost__wrapper--card-text{
+  margin-top: 25px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #21243D;
+}
